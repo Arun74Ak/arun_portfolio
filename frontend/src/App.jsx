@@ -130,9 +130,9 @@ function HeroSection() {
           <span className="hero__name--accent">J.</span>
         </h1>
         <p className="hero__bio">
-          Full Stack Developer with <strong>1+ year of experience</strong> specializing in the MERN stack,
-          secure authentication systems, and real-time applications. Building high-performance crypto exchanges,
-          P2P platforms, and social media apps.
+          Full Stack Developer with<strong> 2+ years of experience</strong> building scalable trading and financial systems using Node.js,
+Express, and MongoDB. Experienced in designing real-time, transaction-driven architectures, with a strong
+focus on performance, data accuracy, and secure system design.
         </p>
         <div className="hero__cta">
           <a href="#projects" className="btn btn--primary">View Projects</a>
@@ -156,7 +156,7 @@ function HeroSection() {
   name: "Arunkumar J",
   role: "Full Stack Developer",
   stack: ["Node.js","React","MongoDB"],
-  experience: "1+ year",
+  experience: "2+ year",
   location: "Madurai, India",
   passion: "Building real-time
             & secure apps 🚀"
@@ -208,8 +208,8 @@ function AboutSection() {
           </div>
           <div className="about__stats">
             {[
-              { val: '1+', label: 'Years Experience' },
-              { val: '3+', label: 'Production Projects' },
+              { val: '2+', label: 'Years Experience' },
+              { val: '5+', label: 'Production Projects' },
               { val: '10+', label: 'Tech Stack' },
               { val: '∞', label: 'Lines of Code' },
             ].map(s => (
@@ -248,7 +248,7 @@ function ExperienceSection() {
                 <li>Improved <strong>system performance and code quality</strong> through modular architecture, reusable components, debugging, and performance tuning in staging and production.</li>
               </ul>
               <div className="exp-tags">
-                {['MERN Stack', 'RBAC', 'Socket.io', 'Blockchain', 'JWT'].map(t => (
+                {['MERN Stack', 'RBAC', 'Socket.io', 'Blockchain', 'JWT',"Node.js", "Express.js", "RESTful APIs", "Microservices","React.js"].map(t => (
                   <span key={t} className="tag tag--light">{t}</span>
                 ))}
               </div>
