@@ -19,7 +19,8 @@ class Settings(BaseSettings):
 
     # App
     APP_ENV: str = "development"
-    FRONTEND_ORIGIN: str = "http://localhost:3000"
+    # FRONTEND_ORIGIN: str = "http://localhost:3000"
+    FRONTEND_ORIGIN: str = "https://arunkumar-sde-portfolio-033f3e.netlify.app/"
     SECRET_KEY: str = "change_me"
 
     @property
