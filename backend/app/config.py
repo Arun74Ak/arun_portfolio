@@ -16,6 +16,8 @@ class Settings(BaseSettings):
     MAIL_FROM: str = ""
     MAIL_FROM_NAME: str = "Portfolio Contact Form"
     MAIL_TO: str = ""
+    RESEND_API_KEY: str = ""
+
 
     # App
     APP_ENV: str = "development"
