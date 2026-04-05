@@ -162,10 +162,10 @@ mail_config = ConnectionConfig(
     MAIL_PASSWORD   = settings.MAIL_PASSWORD,
     MAIL_FROM       = settings.MAIL_FROM,
     MAIL_FROM_NAME  = settings.MAIL_FROM_NAME,
-    MAIL_PORT       = 465,
+    MAIL_PORT       = 587,
     MAIL_SERVER     = "smtp.gmail.com",
-    MAIL_STARTTLS   = False,       # Must be False when using SSL (465)
-    MAIL_SSL_TLS    = True,        # Must be True for port 465
+    MAIL_STARTTLS   = True,     # ✅ TRUE for 587
+    MAIL_SSL_TLS    = False,    # ❌ FALSE for 587
     USE_CREDENTIALS = True,
     VALIDATE_CERTS  = True,
 )
